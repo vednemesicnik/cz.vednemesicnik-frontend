@@ -1,0 +1,27 @@
+env:
+    browser: true
+    node: true
+
+parser:  '@typescript-eslint/parser'
+
+parserOptions:
+    sourceType: module
+
+extends:
+    - "prettier"
+    - "prettier/@typescript-eslint"
+
+plugins:
+    - "@typescript-eslint"
+    - "react"
+    - "react-hooks"
+    - "jsx-a11y"
+
+rules:
+    # Checks rules of Hooks
+    react-hooks/rules-of-hooks: "error"
+
+    # Checks effect dependencies
+    react-hooks/exhaustive-deps: "warn"
+
+    no-unused-vars: "off"

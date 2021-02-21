@@ -1,13 +1,16 @@
-<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <clipPath id="_clip1">
-        <rect x="0" y="0" width="1000" height="1000"/>
-    </clipPath>
-    <g clip-path="url(#_clip1)">
-        <rect x="608" y="152" width="168" height="696" style="fill:url(#_Linear2);"/>
-        <path d="M200,152l192,0l384,648l0,48l-168,0l-408,-696Z" style="fill:#4effa0;"/>
-        <path d="M0,1000l0,-1000l1000,0l0,1000l-1000,0Zm928,-72l0,-856l-856,0l0,856l856,0Z" style="fill:#4cffa0;"/>
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1500,-6317)">
+        <g transform="matrix(0.899281,0,0,0.81103,1226.62,2207.51)">
+            <rect x="304" y="5067" width="1112" height="1233" style="fill:#fff;"/>
+            <g transform="matrix(0.9452,0,0,1.04805,23.0254,-135.798)">
+                <rect x="993.5" y="5204.5" width="168" height="696" style="fill:#000;"/>
+            </g>
+            <g transform="matrix(0.9452,0,0,1.04805,23.0254,-135.798)">
+                <path d="M585.5,5204.5L777.5,5204.5L1161.5,5852.5L1161.5,5900.5L993.5,5900.5L585.5,5204.5Z" style="fill:#000;"/>
+            </g>
+            <g transform="matrix(0.9452,0,0,1.04805,100.059,-150.994)">
+                <path d="M304,6067L304,5067L1304,5067L1304,6067L304,6067ZM1232,5995L1232,5139L376,5139L376,5995L1232,5995Z" style="fill:#000;"/>
+            </g>
+        </g>
     </g>
-    <defs>
-        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(576,-696,696,576,200,848)"><stop offset="0" style="stop-color:#000;stop-opacity:1"/><stop offset="0.2" style="stop-color:#1e653f;stop-opacity:1"/><stop offset="0.42" style="stop-color:#3ece81;stop-opacity:1"/><stop offset="1" style="stop-color:#4dffa0;stop-opacity:1"/></linearGradient>
-    </defs>
 </svg>

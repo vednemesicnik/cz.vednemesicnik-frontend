@@ -4,6 +4,7 @@ import { Navigation } from "components/navigation"
 import { Page } from "components/page"
 import { Footer } from "components/footer"
 import { FooterLink } from "components/footer-link"
+import { palette } from "assets/palette"
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
       <Page>
         <h1 style={{ fontSize: "2em", whiteSpace: "pre-wrap" }}>
           {`Všechny naše články najdete na `}
-          <a href={"https://medium.com/vednemesicnik"} style={{ color: "#4effa0" }}>
+          <a href={"https://medium.com/vednemesicnik"} style={{ color: palette.VDM_SG }}>
             medium.com/
             <wbr />
             vednemesicnik

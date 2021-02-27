@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import { palette } from "assets/palette"
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -9,5 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: sans-serif;
     font-weight: 400;
+    background-color: ${palette.VDM_SG};
   }
 `

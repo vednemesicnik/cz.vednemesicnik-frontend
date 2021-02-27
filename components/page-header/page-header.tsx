@@ -10,6 +10,7 @@ const Container = styled("header")`
   position: relative;
   width: 100%;
   padding-bottom: 60px;
+  grid-area: header;
 `
 
 /**
@@ -20,6 +21,6 @@ type Props = {
   children: React.ReactNode
 }
 
-export const Header = ({ children }: Props) => {
+export const PageHeader = ({ children }: Props) => {
   return <Container>{children}</Container>
 }

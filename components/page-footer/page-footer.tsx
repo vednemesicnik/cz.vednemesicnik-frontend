@@ -11,6 +11,7 @@ const Container = styled("footer")`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  grid-area: footer;
 `
 
 const Box = styled("div")`
@@ -20,7 +21,6 @@ const Box = styled("div")`
   align-items: center;
   width: 100%;
   height: 60px;
-  max-width: 1440px;
   padding: 0 40px;
 `
 
@@ -32,7 +32,7 @@ type Props = {
   children: React.ReactNode
 }
 
-export const Footer = ({ children }: Props) => {
+export const PageFooter = ({ children }: Props) => {
   return (
     <Container>
       <Box>{children}</Box>

@@ -5,22 +5,28 @@ import styled from "styled-components"
  * Styles
  */
 
-const Container = styled("main")`
+const Container = styled("div")`
   display: flex;
-  position: relative;
   flex-direction: column;
-  align-items: center;
   width: 100%;
+  min-height: 100vh;
+  align-items: center;
 `
 
-const Box = styled("div")`
-  display: flex;
+const Grid = styled("div")`
+  display: grid;
   position: relative;
-  flex-direction: column;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content 1fr max-content;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
   width: 100%;
+  min-height: 100vh;
   max-width: 1440px;
-  min-height: calc(100vh - 120px);
-  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 `
 
 /**
@@ -34,7 +40,7 @@ type Props = {
 export const Page = ({ children }: Props) => {
   return (
     <Container>
-      <Box>{children}</Box>
+      <Grid>{children}</Grid>
     </Container>
   )
 }

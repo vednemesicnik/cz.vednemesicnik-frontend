@@ -5,6 +5,8 @@ import { Page } from "components/page"
 import { Footer } from "components/footer"
 import { FooterLink } from "components/footer-link"
 import { palette } from "assets/palette"
+import { NavigationMenu } from "components/navigation-menu"
+import { NavigationMenuItem } from "components/navigation-menu-item"
 
 const Home = () => {
   return (
@@ -17,7 +19,11 @@ const Home = () => {
       </Head>
 
       <Header>
-        <Navigation>{null}</Navigation>
+        <Navigation>
+          <NavigationMenu>
+            <NavigationMenuItem href={"http://archiv.vednemesicnik.cz"}>{`Archiv`}</NavigationMenuItem>
+          </NavigationMenu>
+        </Navigation>
       </Header>
 
       <Page>

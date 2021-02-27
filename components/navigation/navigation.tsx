@@ -30,7 +30,7 @@ const Box = styled("div")`
   border-bottom-right-radius: 4px;
   grid-template-columns: max-content auto;
   grid-template-rows: 1fr;
-  grid-template-areas: "logo .";
+  grid-template-areas: "logo menu";
   align-items: center;
   padding: 0 40px;
 `

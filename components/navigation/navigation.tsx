@@ -26,8 +26,6 @@ const Box = styled("div")`
   height: 100%;
   background-color: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
   grid-template-columns: max-content auto;
   grid-template-rows: 1fr;
   grid-template-areas: "logo menu";

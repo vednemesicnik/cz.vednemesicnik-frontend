@@ -9,6 +9,7 @@ import { palette } from "assets/palette"
 import { NavigationMenu } from "components/navigation-menu"
 import { NavigationMenuItem } from "components/navigation-menu-item"
 import { Page } from "components/page"
+import { getSeasonColor } from "helpers"
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
         <PageContent>
           <h1 style={{ fontSize: "2em", whiteSpace: "pre-wrap" }}>
             {`Všechny naše články najdete na `}
-            <a href={"https://medium.com/vednemesicnik"} style={{ color: palette.VDM_SG }}>
+            <a href={"https://medium.com/vednemesicnik"} style={{ color: getSeasonColor() }}>
               medium.com/
               <wbr />
               vednemesicnik

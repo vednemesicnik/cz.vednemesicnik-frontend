@@ -1,13 +1,13 @@
 import React from "react"
-import { getSeasonColor, getSeasonGradient } from "helpers"
+import { palette } from "assets/palette"
 
 /**
  * Theme
  */
 
 const theme = {
-  color: getSeasonColor(),
-  gradient: getSeasonGradient(),
+  color: palette.VDM_SG,
+  gradient: palette.VDM_SG_GRADIENT,
 }
 
 /**

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import { getSeasonColor } from "helpers"
+import { palette } from "assets/palette"
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: sans-serif;
     font-weight: 400;
-    background-color: ${getSeasonColor()};
+    background-color: ${palette.VDM_SG};
   }
 `

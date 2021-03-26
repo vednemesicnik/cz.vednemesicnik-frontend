@@ -24,7 +24,6 @@ const Grid = styled("div")`
     "footer";
   width: 100%;
   min-height: 100vh;
-  max-width: 1440px;
   background-color: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 `

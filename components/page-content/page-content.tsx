@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { palette } from "assets/palette"
 
 /**
  * Styles
@@ -20,6 +19,7 @@ const Box = styled("div")`
   position: relative;
   flex-direction: column;
   width: 100%;
+  max-width: 1440px;
   padding: 40px;
 `
 

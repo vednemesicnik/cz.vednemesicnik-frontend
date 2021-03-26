@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Logo } from "components/logo"
 import Link from "next/link"
+import { size } from "assets/size"
 
 /**
  * Styles
@@ -14,7 +15,7 @@ const Container = styled("nav")`
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: ${size.pageNavigationHeight};
   background-color: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   z-index: 1;
@@ -24,7 +25,7 @@ const Box = styled("div")`
   display: grid;
   position: relative;
   width: 100%;
-  max-width: 1440px;
+  max-width: ${size.pageMaxWidth};
   height: 100%;
   grid-template-columns: max-content auto;
   grid-template-rows: 1fr;

@@ -30,6 +30,8 @@ const Link = styled("a")`
   position: relative;
   width: 60px;
   height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
   cursor: pointer;
 `
 

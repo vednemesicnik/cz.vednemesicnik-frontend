@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { size } from "assets/size"
 
 /**
  * Styles
@@ -9,7 +10,7 @@ const Container = styled("header")`
   display: block;
   position: relative;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: ${size.pageNavigationHeight};
   grid-area: header;
 `
 

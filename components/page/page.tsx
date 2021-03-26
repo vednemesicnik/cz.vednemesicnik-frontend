@@ -6,14 +6,6 @@ import styled from "styled-components"
  */
 
 const Container = styled("div")`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  align-items: center;
-`
-
-const Grid = styled("div")`
   display: grid;
   position: relative;
   grid-template-columns: 1fr;
@@ -37,9 +29,5 @@ type Props = {
 }
 
 export const Page = ({ children }: Props) => {
-  return (
-    <Container>
-      <Grid>{children}</Grid>
-    </Container>
-  )
+  return <Container>{children}</Container>
 }

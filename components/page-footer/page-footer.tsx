@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { palette } from "assets/palette"
 import { FooterSocialSites } from "components/footer-social-sites"
+import { size } from "assets/size"
 
 /**
  * Styles
@@ -22,7 +23,7 @@ const Content = styled("div")`
   display: grid;
   position: relative;
   width: 100%;
-  max-width: 1440px;
+  max-width: ${size.pageMaxWidth};
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content;
   padding: 40px;

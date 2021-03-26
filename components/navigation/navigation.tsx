@@ -15,6 +15,8 @@ const Container = styled("nav")`
   left: 0;
   width: 100%;
   height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   z-index: 1;
 `
 
@@ -24,8 +26,6 @@ const Box = styled("div")`
   width: 100%;
   max-width: 1440px;
   height: 100%;
-  background-color: #ffffff;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   grid-template-columns: max-content auto;
   grid-template-rows: 1fr;
   grid-template-areas: "logo menu";

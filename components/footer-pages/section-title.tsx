@@ -8,7 +8,7 @@ import { font } from "assets/font"
 
 const Text = styled("span")`
   font-size: 16px;
-  font-weight: ${font.weight.bold};
+  font-weight: ${font.weight.medium};
 `
 
 /**

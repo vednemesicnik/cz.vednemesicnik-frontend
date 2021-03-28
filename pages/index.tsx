@@ -1,20 +1,16 @@
 import React, { Fragment } from "react"
-import Head from "next/head"
 import { PageHeader } from "components/page-header"
 import { PageContent } from "components/page-content"
 import { PageFooter } from "components/page-footer"
 import { palette } from "assets/palette"
 import { Page } from "components/page"
-import { Favicon } from "components/favicon"
 import { PageNavigation } from "components/page-navigation"
+import { PageHead } from "components/page-head/page-head"
 
 const Home = () => {
   return (
     <Fragment>
-      <Head>
-        <title>Vedneměsíčník</title>
-        <Favicon />
-      </Head>
+      <PageHead />
 
       <Page>
         <PageHeader>

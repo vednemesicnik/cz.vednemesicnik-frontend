@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import { font } from "assets/font"
+import { palette } from "assets/palette"
 
 export const GlobalStyle = createGlobalStyle`
   //IBM Plex Regular
@@ -44,6 +45,10 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
+  }
+  
+  a {
+    color: ${palette.blue.light[0]};
   }
 
   body {

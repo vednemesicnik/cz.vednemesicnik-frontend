@@ -1,15 +1,15 @@
 import React, { Fragment } from "react"
+import { Page } from "components/page"
+import { PageNavigation } from "components/page-navigation"
 import { PageHeader } from "components/page-header"
 import { PageContent } from "components/page-content"
 import { PageFooter } from "components/page-footer"
-import { Page } from "components/page"
-import { PageNavigation } from "components/page-navigation"
 import { PageHead } from "components/page-head"
 
-const Home = () => {
+const Archive = () => {
   return (
     <Fragment>
-      <PageHead />
+      <PageHead pageTitle={"Archiv"} />
 
       <Page>
         <PageHeader>
@@ -17,14 +17,7 @@ const Home = () => {
         </PageHeader>
 
         <PageContent>
-          <h1 style={{ fontSize: "2em", whiteSpace: "pre-wrap" }}>
-            {`Všechny naše články najdete na `}
-            <a href={"https://medium.com/vednemesicnik"}>
-              medium.com/
-              <wbr />
-              vednemesicnik
-            </a>
-          </h1>
+          <h1>Archiv</h1>
         </PageContent>
 
         <PageFooter />
@@ -33,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Archive

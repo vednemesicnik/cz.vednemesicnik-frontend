@@ -42,31 +42,31 @@ const Link = styled("a")`
 const socialSites = [
   {
     id: cuid(),
-    title: "Facebook | Vedneměsíčník",
+    title: "Facebook",
     link: "https://www.facebook.com/vednemesicnik",
     icon: <FacebookIcon />,
   },
   {
     id: cuid(),
-    title: "Instagram | Vedneměsíčník",
+    title: "Instagram",
     link: "https://www.instagram.com/vednemesicnik/",
     icon: <InstagramIcon />,
   },
   {
     id: cuid(),
-    title: "Twitter | Vedneměsíčník",
+    title: "Twitter",
     link: "https://twitter.com/vednemesicnik",
     icon: <TwitterIcon />,
   },
   // {
   //   id: cuid(),
-  //   title: "YouTube | Vedneměsíčník",
+  //   title: "YouTube",
   //   link: "https://www.youtube.com/channel/UClHA5jiAjs11Vvotq1nUfHw",
   //   icon: <YoutubeIcon />,
   // },
   // {
   //   id: cuid(),
-  //   title: "GitHub | Vedneměsíčník",
+  //   title: "GitHub",
   //   link: "https://github.com/vednemesicnik",
   //   icon: <GithubIcon />,
   // },

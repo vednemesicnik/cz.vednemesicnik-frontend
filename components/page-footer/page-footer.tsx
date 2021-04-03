@@ -4,6 +4,7 @@ import { palette } from "assets/palette"
 import { FooterSocialSites } from "components/footer-social-sites"
 import { size } from "assets/size"
 import { FooterPages } from "components/footer-pages"
+import { font } from "assets/font"
 
 /**
  * Styles
@@ -16,7 +17,9 @@ const Container = styled("footer")`
   align-items: center;
   width: 100%;
   background-color: ${palette.VDM_SG};
-  background-image: linear-gradient(160deg, ${palette.VDM_SG} 0%, #ffffff 100%);
+  background-image: linear-gradient(160deg, ${palette.green.light[4]} 0%, ${palette.blue.light[6]} 100%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   grid-area: footer;
 `
 
@@ -46,7 +49,8 @@ const Content = styled("div")`
 
 const Info = styled("span")`
   font-size: 12px;
-  font-weight: 400;
+  font-weight: ${font.weight.regular};
+  color: ${palette.WEB_BLACK};
   grid-area: info;
   align-self: center;
 `

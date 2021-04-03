@@ -4,6 +4,8 @@ import { PagesList } from "./pages-list"
 import LinkWrapper from "next/link"
 import { Section } from "./section"
 import { SectionTitle } from "components/footer-pages/section-title"
+import { font } from "assets/font"
+import { palette } from "assets/palette"
 
 /**
  * Styles
@@ -26,6 +28,8 @@ const Container = styled("div")`
 
 const Link = styled("a")`
   font-size: 16px;
+  font-weight: ${font.weight.regular};
+  color: ${palette.WEB_BLACK};
   cursor: pointer;
   padding: 6px 0;
 

@@ -5,7 +5,6 @@ import { PageHeader } from "components/page-header"
 import { PageContent } from "components/page-content"
 import { PageFooter } from "components/page-footer"
 import { PageHead } from "components/page-head/page-head"
-import { Heading } from "components/heading/heading"
 
 const Archive = () => {
   return (
@@ -18,7 +17,7 @@ const Archive = () => {
         </PageHeader>
 
         <PageContent>
-          <Heading>Archiv</Heading>
+          <h1>Archiv</h1>
         </PageContent>
 
         <PageFooter />

@@ -5,7 +5,6 @@ import { PageHeader } from "components/page-header"
 import { PageFooter } from "components/page-footer"
 import { PageContent } from "components/page-content"
 import { PageHead } from "components/page-head/page-head"
-import { Heading } from "components/heading/heading"
 
 const Support = () => {
   return (
@@ -18,7 +17,7 @@ const Support = () => {
         </PageHeader>
 
         <PageContent>
-          <Heading>Podpora</Heading>
+          <h1>Podpora</h1>
         </PageContent>
 
         <PageFooter />

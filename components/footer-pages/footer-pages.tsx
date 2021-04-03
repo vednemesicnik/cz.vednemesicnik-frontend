@@ -71,17 +71,17 @@ export const FooterPages = (_props: Props) => {
           </LinkWrapper>
         </PagesList>
       </Section>
-      <Section>
-        <SectionTitle>Ostatní</SectionTitle>
-        <PagesList>
-          <LinkWrapper href={"/archive"}>
-            <Link>Archiv</Link>
-          </LinkWrapper>
-          <LinkWrapper href={"/support"}>
-            <Link>Podpora</Link>
-          </LinkWrapper>
-        </PagesList>
-      </Section>
+      {/*<Section>*/}
+      {/*  <SectionTitle>Ostatní</SectionTitle>*/}
+      {/*  <PagesList>*/}
+      {/*    <LinkWrapper href={"/archive"}>*/}
+      {/*      <Link>Archiv</Link>*/}
+      {/*    </LinkWrapper>*/}
+      {/*    <LinkWrapper href={"/support"}>*/}
+      {/*      <Link>Podpora</Link>*/}
+      {/*    </LinkWrapper>*/}
+      {/*  </PagesList>*/}
+      {/*</Section>*/}
     </Container>
   )
 }

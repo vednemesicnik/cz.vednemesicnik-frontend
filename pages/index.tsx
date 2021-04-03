@@ -4,7 +4,7 @@ import { PageContent } from "components/page-content"
 import { PageFooter } from "components/page-footer"
 import { Page } from "components/page"
 import { PageNavigation } from "components/page-navigation"
-import { PageHead } from "components/page-head/page-head"
+import { PageHead } from "components/page-head"
 
 const Home = () => {
   return (

@@ -4,7 +4,7 @@ import { PageNavigation } from "components/page-navigation"
 import { PageHeader } from "components/page-header"
 import { PageContent } from "components/page-content"
 import { PageFooter } from "components/page-footer"
-import { PageHead } from "components/page-head/page-head"
+import { PageHead } from "components/page-head"
 
 const Archive = () => {
   return (

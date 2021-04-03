@@ -11,4 +11,7 @@ export const palette = {
   // Winter Blue
   VDM_WB: "hsl(196, 100%, 68%)",
   VDM_WB_GRADIENT: ["hsl(196, 0%, 0%)", "hsl(196, 54%, 26%)", "hsl(196, 62%, 54%)", "hsl(196, 100%, 61%)"],
+
+  WEB_BLACK: "hsl(0,0%,18%)",
+  WEB_WHITE: "hsl(0,0%,98%)",
 }

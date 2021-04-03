@@ -1,3 +1,5 @@
+# ESLint Configuration https://eslint.org/docs/user-guide/configuring/
+
 env:
     browser: true
     node: true

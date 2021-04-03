@@ -1,3 +1,5 @@
+# Stylelint configuration https://stylelint.io/user-guide/configure
+
 processors:
   - "stylelint-processor-styled-components"
 

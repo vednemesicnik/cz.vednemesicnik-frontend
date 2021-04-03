@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components"
 import { font } from "assets/font"
 import { palette } from "assets/palette"

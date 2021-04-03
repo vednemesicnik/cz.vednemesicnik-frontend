@@ -1,4 +1,4 @@
-import React from "react"
+import { Children } from "react"
 import styled from "styled-components"
 
 /**
@@ -34,7 +34,7 @@ type Props = {
 export const NavigationMenu = ({ children }: Props) => {
   return (
     <List>
-      {React.Children.map(children, (child, index) => (
+      {Children.map(children, (child, index) => (
         <ListItem key={`navigation-menu-item-${index}`}>{child}</ListItem>
       ))}
     </List>

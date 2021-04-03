@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react"
+import { ReactNode } from "react"
 import Head from "next/head"
 import { Favicon } from "components/page-head/favicon"
 import { Fonts } from "components/page-head/fonts"

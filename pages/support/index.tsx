@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import { Fragment } from "react"
 import { Page } from "components/page"
 import { PageNavigation } from "components/page-navigation"
 import { PageHeader } from "components/page-header"

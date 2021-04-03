@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components"
 import { PagesList } from "./pages-list"
 import LinkWrapper from "next/link"

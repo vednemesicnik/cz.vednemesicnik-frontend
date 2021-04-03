@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components"
 import { palette } from "assets/palette"
 import { FooterSocialSites } from "components/footer-social-sites"

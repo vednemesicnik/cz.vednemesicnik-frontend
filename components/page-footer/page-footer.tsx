@@ -16,7 +16,7 @@ const Container = styled("footer")`
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: ${palette.VDM_SG};
+  background-color: ${palette.green.light[4]};
   background-image: linear-gradient(160deg, ${palette.green.light[4]} 0%, ${palette.blue.light[6]} 100%);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;

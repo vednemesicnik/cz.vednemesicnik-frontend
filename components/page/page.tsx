@@ -17,7 +17,6 @@ const Container = styled("div")`
   width: 100%;
   min-height: 100vh;
   background-color: #ffffff;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 `
 
 /**

@@ -13,4 +13,9 @@ export const palette = {
   },
 
   logo: ["#5CFFA3", "#43d6a9", "#0068b8"],
+
+  gradient: {
+    light: ["hsl(146, 80%, 83%)", "hsl(206, 80%, 83%)"],
+    dark: ["hsl(146, 40%, 53%)", "hsl(206, 40%, 53%)"],
+  },
 }

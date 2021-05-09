@@ -28,9 +28,13 @@ const Container = styled("div")`
 const Link = styled("a")`
   font-size: 16px;
   font-weight: ${font.weight.regular};
-  color: ${palette.WEB_BLACK};
   cursor: pointer;
   padding: 6px 0;
+  color: hsla(0, 0%, 0%, 0.8);
+
+  @media (prefers-color-scheme: dark) {
+    color: hsla(0, 0%, 100%, 0.8);
+  }
 
   &:hover {
     text-decoration: underline;

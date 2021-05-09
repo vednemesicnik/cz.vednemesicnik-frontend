@@ -5,6 +5,8 @@ import { PageHeader } from "components/page-header"
 import { PageFooter } from "components/page-footer"
 import { PageContent } from "components/page-content"
 import { PageHead } from "components/page-head"
+import { SupporterProfile } from "components/supporter-profile"
+import { SupportersList } from "components/supporters-list"
 
 const Organization = () => {
   return (
@@ -27,16 +29,24 @@ const Organization = () => {
             kulturních akcí pro středoškolské studenty (literárních večerů a autorských čtení).
           </p>
           <p>Vedneměsíčník vychází za laskavé podpory:</p>
-          <p>
-            Literární kavárna Měsíc ve dne <a href={"http://www.mesicvedne.cz/"}>http://www.mesicvedne.cz/</a>
-          </p>
-          <p>
-            Biskupské gymnázium J. N. Neumanna v Č. Budějovicích{" "}
-            <a href={"http://www.bigy-cb.cz/bigy/"}>http://www.bigy-cb.cz/bigy/</a>
-          </p>
-          <p>
-            Fokus České Budějovice <a href={"http://www.fokus-cb.cz/"}>http://www.fokus-cb.cz/</a>
-          </p>
+
+          <SupportersList>
+            <SupporterProfile
+              name={"Literární kavárna Měsíc ve dne"}
+              url={"http://www.mesicvedne.cz/"}
+              logo={"/supporters/mesic-ve-dne.png"}
+            />
+            <SupporterProfile
+              name={"Biskupské gymnázium J. N. Neumanna v Č. Budějovicích"}
+              url={"http://www.bigy-cb.cz/bigy/"}
+              logo={"/supporters/bigy.png"}
+            />
+            <SupporterProfile
+              name={"Fokus České Budějovice"}
+              url={"http://www.fokus-cb.cz/"}
+              logo={"/supporters/focus.png"}
+            />
+          </SupportersList>
         </PageContent>
 
         <PageFooter />

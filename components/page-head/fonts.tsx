@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import { Fragment } from "react"
 import { font } from "assets/font"
 
 type Props = {

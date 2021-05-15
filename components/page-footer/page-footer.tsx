@@ -1,4 +1,3 @@
-import React from "react"
 import styled from "styled-components"
 import { palette } from "assets/palette"
 import { FooterSocialSites } from "components/footer-social-sites"
@@ -16,8 +15,13 @@ const Container = styled("footer")`
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: ${palette.VDM_SG};
-  background-image: linear-gradient(160deg, ${palette.green.light[4]} 0%, ${palette.blue.light[6]} 100%);
+  background-color: ${palette.green.light[4]};
+  background-image: linear-gradient(160deg, ${palette.gradient.light[0]} 0%, ${palette.gradient.light[1]} 100%);
+
+  @media (prefers-color-scheme: dark) {
+    background-image: linear-gradient(160deg, ${palette.gradient.dark[0]} 0%, ${palette.gradient.dark[1]} 100%);
+  }
+
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   grid-area: footer;
@@ -50,9 +54,14 @@ const Content = styled("div")`
 const Info = styled("span")`
   font-size: 12px;
   font-weight: ${font.weight.regular};
-  color: ${palette.WEB_BLACK};
   grid-area: info;
   align-self: center;
+
+  color: hsla(0, 0%, 0%, 0.8);
+
+  @media (prefers-color-scheme: dark) {
+    color: hsla(0, 0%, 100%, 0.8);
+  }
 `
 
 /**

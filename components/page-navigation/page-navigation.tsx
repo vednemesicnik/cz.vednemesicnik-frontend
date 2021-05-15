@@ -1,4 +1,3 @@
-import React from "react"
 import { NavigationMenu } from "components/page-navigation/navigation-menu"
 import { NavigationMenuItem } from "components/page-navigation/navigation-menu-item"
 import { Navigation } from "components/page-navigation/navigation"

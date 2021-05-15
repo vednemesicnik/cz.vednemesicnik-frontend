@@ -1,3 +1,5 @@
+# Prettier configuration https://prettier.io/docs/en/configuration.html
+
 "endOfLine": "lf"
 "semi": false
 "singleQuote": false

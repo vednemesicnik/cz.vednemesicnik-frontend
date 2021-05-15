@@ -1,4 +1,3 @@
-import React from "react"
 import cuid from "cuid"
 import {
   FacebookIcon /*, GithubIcon*/,

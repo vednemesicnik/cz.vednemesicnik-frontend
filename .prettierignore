@@ -1,5 +1,9 @@
-# Next
-.next
+# next.js
+/.next/
+/out/
 
-# Node modules
-node_modules
+# dependencies
+/node_modules
+
+# production
+/build

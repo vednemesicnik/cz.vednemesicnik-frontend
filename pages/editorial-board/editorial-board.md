@@ -1,5 +1,5 @@
 ---
-editor: "Vedneměsíčník"
+author: "Vedneměsíčník"
 date: "15-05-2021"
 ---
 # Tak to je naše redakce

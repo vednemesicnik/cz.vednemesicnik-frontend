@@ -1,5 +1,5 @@
 ---
-editor: "Petr Kuthan"
+author: "Petr Kuthan"
 date: "22-12-2016"
 ---
 # Vedneměsíčník, z. s.

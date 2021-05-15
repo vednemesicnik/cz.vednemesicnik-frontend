@@ -8,9 +8,8 @@ import styled from "styled-components"
 const Container = styled("div")`
   display: grid;
   position: relative;
-  grid-auto-flow: column;
-  grid-auto-columns: max-content;
-  grid-column-gap: 24px;
+  grid-template-columns: repeat(auto-fill, 160px);
+  grid-gap: 24px;
 `
 
 /**

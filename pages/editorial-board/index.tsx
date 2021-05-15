@@ -13,7 +13,7 @@ import ReactMarkdown from "react-markdown"
 type Props = {
   content: string
   data: {
-    editor: string
+    author: string
     date: string
   }
 }

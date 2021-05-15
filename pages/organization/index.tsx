@@ -13,7 +13,7 @@ import { GetStaticProps } from "next"
 type Props = {
   content: string
   data: {
-    editor: string
+    author: string
     date: string
   }
 }

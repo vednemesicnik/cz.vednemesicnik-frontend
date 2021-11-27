@@ -1,0 +1,37 @@
+# ESLint Configuration https://eslint.org/docs/user-guide/configuring/
+
+env:
+  browser: true
+  node: true
+
+parser:  '@typescript-eslint/parser'
+
+parserOptions:
+  sourceType: module
+
+extends:
+  - "prettier"
+
+plugins:
+  - "@typescript-eslint"
+  - "react"
+  - "react-hooks"
+  - "jsx-a11y"
+
+rules:
+  # Checks rules of Hooks
+  react-hooks/rules-of-hooks: "error"
+
+  # Checks effect dependencies
+  react-hooks/exhaustive-deps: "warn"
+
+  no-unused-vars: "off"
+
+  no-restricted-imports:
+    - "warn"
+    - paths:
+      - name: "react"
+        importNames:
+          - "default"
+          - "React"
+        message: "You can remove the default import (e.i. import React from \"react\")"

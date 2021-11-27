@@ -9,7 +9,7 @@ import { palette } from "assets/palette"
  */
 
 const theme = {
-  fontColor: ["#FFFFFF", palette.mediumSpringGreen],
+  fontColor: ["#FFFFFF", palette.mediumSpringGreen[0]],
 }
 
 /**

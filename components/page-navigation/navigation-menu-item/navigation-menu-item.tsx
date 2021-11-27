@@ -8,7 +8,7 @@ import { Url } from "url"
  */
 
 const theme = {
-  fontColor: [palette.richBlack],
+  fontColor: [palette.richBlack[0]],
 }
 
 /**

@@ -23,8 +23,8 @@ const Container = styled("footer")`
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: ${palette.richBlack};
-  border-top: 4px solid ${palette.mediumSpringGreen};
+  background-color: ${palette.richBlack[0]};
+  border-top: 4px solid ${palette.mediumSpringGreen[0]};
   grid-area: footer;
 `
 

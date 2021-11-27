@@ -18,8 +18,6 @@ const Container = styled("nav")`
   height: ${size.pageNavigationHeight};
   background-color: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
   z-index: 1;
 `
 
